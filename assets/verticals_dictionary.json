@@ -1,0 +1,265 @@
+{"Hotels": [
+  "vacation rental",
+  "hotel accommodation",
+  "holiday rental",
+  "book hotel",
+  "rental country",
+  "accommodation facility",
+    "retreat",
+    "resort",
+        "hotel",
+        "accommodation",
+        "apartment",
+        "hostel",
+        "rental",
+        "lodge",
+        "hotel accommodation",
+        "vacation home",
+        "rental country",
+        "book hotel",
+        "book apartment",
+        "book hostel",
+        "book accommodation",
+        "accommodation facility",
+        "hotel search",
+        "check availability",
+    "places to stay in",
+    "staying in",
+    "check hotels",
+    "check hotel"
+                  ],
+ "Airport lounges": [
+  "fast track",
+  "airport world",
+  "business lounge",
+  "lounge fast",
+  "vip lounge",
+  "lounge access",
+  "track meet",
+        "airport lounge",
+        "vip lounge",
+        "vip business",
+        "lounge track",
+        "amp assist",
+        "assist airport",
+        "lounge access"
+],
+ "Bank cards": [
+  "credit card",
+  "access card",
+  "card traveler",
+  "traveler credit",
+        "card",
+        "credit",
+        "card benefit",
+        "traveler credit",
+        "card debit"
+ ],
+ "Bike & Scooter rental": [
+  "motorcycle scooter",
+  "scooter quad",
+  "quad bicycle",
+        "motorcycle",
+        "scooter",
+        "quad",
+        "vehicle",
+        "bike",
+        "bicycle",
+        "service motorcycle",
+        "rent bike",
+        "rent bicycle",
+        "rent motorcycle",
+        "rent scooter",
+        "bike rental",
+        "quad rental",
+        "rent quad",
+        "notorcycle rental"
+ ],
+ "Bus transportation": [
+  "bus ticket",
+  "green bus",
+        "bus",
+        "bus ticket",
+        "industry bus",
+        "bus distance"
+
+ ],
+ "Car rental": [
+  "car rental",
+  "car online",
+
+        "automobil",
+        "car rental",
+        "rental company",
+        "rental service",
+        "rent car",
+        "rent vehicle"
+
+ ],
+ "Carpooling": [
+  "carpooling",
+  "carpool",
+  "carpooling platform"
+ ],
+ "Cruises": [
+  "river cruise",
+   "boat cruise",
+  "boutique cruise",
+  "cruise review",
+  "cruise site",
+  "cruise expert",
+  "cruise line",
+        "cruise",
+        "sea cruise",
+        "ocean cruise",
+        "cruise ship",
+        "cruise available"
+ ]
+ ,
+ "Flights": [
+  "flight search",
+  "search flight",
+  "search flights",
+        "flight",
+        "airline",
+        "book flight",
+        "buy flight tickets",
+        "book flight tickets"
+
+ ]
+
+ ,
+ "Food & Dining": [
+  "cooking class",
+  "cooking workshop",
+  "culinary experience",
+  "food tour",
+     "tasting"
+                  ],
+ "Insurance": [
+  "travel insurance",
+  "insurance option",
+  "search insurance",
+  "visitor insurance",
+  "insurance company",
+        "insurance",
+        "coverage",
+        "insurance service",
+        "visitors coverage",
+        "visitor coverage"
+ ],
+ "Loyalty Points": [
+  "loyalty program",
+  "partner program",
+  "partner point"
+  ],
+ "Luggage storage": [
+  "luggage storage",
+  "storage point",
+  "storage network",
+        "storage",
+        "luggage",
+        "luggage storage",
+        "storage point",
+        "customer luggage",
+        "traveller luggage",
+        "storage solution"
+ ],
+ "Parking": ["parking"],
+ "River cruises": [
+  "river cruise",
+  "cruise review",
+  "cruise ship",
+  "cruise available",
+       "cruise site",
+       "cruise expert",
+       "cruise line"
+],
+ "Sanatoriums": [
+  "sanatorium treatment",
+  "hotel sanatorium",
+  "spa hotel",
+        "sanatorium",
+        "treatment",
+        "sanatorium treatment",
+        "treatment niche",
+        "treatment package"
+],
+ "Tours and Activities": [
+  "tour operator",
+  "tourist destination",
+  "tour attraction",
+  "sightseeing tour",
+  "book tour",
+     "amusement park",
+     "theme park",
+     "water park",
+     "must see",
+        "tour",
+        "museum",
+        "zoo",
+         "park",
+        "excursion",
+        "attraction",
+        "experience",
+        "tour service",
+        "book tour",
+        "book excursion",
+        "day trip",
+        "book attraction",
+        "tourist destination",
+        "attraction sight",
+        "museum ticket",
+        "trip to",
+        "visit",
+        "guided tour",
+     "guided",
+     "tasting",
+     "boat cruise",
+     "full-day tour",
+     "day tour",
+     "hour tour",
+     "bus tour",
+     "walking tour"
+
+                       ],
+ "Train tickets & passes": [
+  "railway ticket",
+  "train ticket",
+  "train travel",
+  "rail ticket",
+         "train",
+
+        "railway",
+        "railway pass",
+        "train pass"
+ ],
+ "Transfers": [
+  "airport transfer",
+  "transfer resort",
+  "hotel transfer",
+  "transfer country",
+  "book transfer",
+         "transfer",
+     "private transfer",
+     "taxi"
+ ],
+ "Travel compensation": [
+  "receive compensation",
+  "get compensation",
+        "compensation",
+        "customer compensation",
+        "calculate compensation"
+
+ ],
+  "SIM-cards": [
+  "esim",
+  "ESIM",
+  "eSIM",
+   "eSIMs",
+  "SIM",
+        "SIM card",
+      "eSIMs card",
+      "data pack"
+ ]
+}

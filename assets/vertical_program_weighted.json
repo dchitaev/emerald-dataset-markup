@@ -1,0 +1,66 @@
+[
+    {
+        "vertical": "Hotels",
+        "weight": 10,
+        "programs": [
+            {
+                "program": "Booking.com",
+                "weight": 10
+            },
+            {
+                "program": "Agoda",
+                "weight": 9
+            }
+        ]
+    },
+    {
+        "vertical": "Tours and Activities",
+        "weight": 9,
+        "programs": [
+            {
+                "program": "Viator",
+                "weight": 10
+            }
+        ]
+    },
+    {
+        "vertical": "Car Rental",
+        "weight": 8,
+        "programs": [
+            {
+                "program": "Discover Cars",
+                "weight": 9
+            }
+        ]
+    },
+    {
+        "vertical": "SIM-cards",
+        "weight": 7,
+        "programs": [
+            {
+                "program": "Airalo",
+                "weight": 10
+            }
+        ]
+    },
+    {
+        "vertical": "Flights",
+        "weight": 6,
+        "programs": [
+            {
+                "program": "WayAway",
+                "weight": 10
+            }
+        ]
+    },
+    {
+        "vertical": "Insurance",
+        "weight": 5,
+        "programs": [
+            {
+                "program": "Insubuy",
+                "weight": 10
+            }
+        ]
+    }
+]

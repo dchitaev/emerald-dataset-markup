@@ -28,13 +28,13 @@ from lib.markupper import Markupper
 from dotenv import load_dotenv
 load_dotenv()
 
-url = 'https://www.chasingthedonkey.com/best-things-to-do-in-croatia/'
+dataset = ['https://www.chasingthedonkey.com/best-things-to-do-in-croatia/']
 
-# a = Markupper()
-# b = a.create_page_markup(url)
-# print(b)
+result = pd.DataFrame()
 
-sentence= 'Explore the Old Town, walk the city walls, and visit Fort Lovrijenac and the Rector’s Palace'
-text = 'Dubrovnik:Known as the “Pearl of the Adriatic,” Dubrovnik is a stunning city with ancient walls, marble streets, and historic buildings. Explore the Old Town, walk the city walls, and visit Fort Lovrijenac and the Rector’s Palace.Explore the Old Town,walk the city walls, and visit Fort Lovrijenacand the Rector’s Palace.'
+for url in dataset:
+    markupper = Markupper()
+    result = pd.concat([result, markupper.create_page_markup(url)], ignore_index=True)
 
-print(sentence[0:15])
+print(result)
+result.to_csv('result.csv', index=False)

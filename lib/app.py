@@ -1,40 +1,40 @@
 import os
-import requests
-import urllib
-import json
-import openai
-import rollbar
-import trafilatura
 import pandas as pd
-import numpy as np
-import xml.etree.ElementTree as ET
-import tiktoken
-import random
-import re
-from urllib.parse import urlparse, urlunparse
-import tldextract
-from bs4 import BeautifulSoup
-from fake_useragent import UserAgent
-# import spacy
-# import unicodedata
-from geopy.geocoders import Nominatim
-from geotext import GeoText
 
 import os.path
 import site
 site.addsitedir(os.path.join(os.path.dirname(__file__), '..'))
-from lib.markupper import Markupper
 
 from dotenv import load_dotenv
 load_dotenv()
 
+from lib.markupper import Markupper
+from lib.helpers import get_html
+
+
 dataset = ['https://www.chasingthedonkey.com/best-things-to-do-in-croatia/']
 
-result = pd.DataFrame()
+sumamries = pd.DataFrame()
+markups = pd.DataFrame()
 
 for url in dataset:
-    markupper = Markupper()
-    result = pd.concat([result, markupper.create_page_markup(url)], ignore_index=True)
+    try:
+        # getting page html
+        html = get_html(url)
+        markupper = Markupper(url,html)
+        
+        # getting page summary
+        row  = pd.DataFrame({**{"url":url},**markupper.get_meta_location_data()},index=[0])
+        sumamries = pd.concat([sumamries,row])
 
-print(result)
-result.to_csv('result.csv', index=False)
+        # getting page markup
+        # markups = pd.concat([markups, markupper.create_page_markup()], ignore_index=True)
+    
+    except Exception as e:   
+        print(str(e))
+
+print(sumamries)
+sumamries.to_csv('sumamries.csv', index=False)
+
+print(markups)
+markups.to_csv('markups.csv', index=False)
